@@ -8,7 +8,7 @@ When deploying a React.js application, it's essential to protect your source cod
 
 2. **Create a .env File**: Utilize environment variables to control source map generation. Add the following code to a `.env` file:
     ```
-    GENERATE_SOURCEMAP=false
+    GENERATE_SOURCEMAP=false;
     ```
    Then build your app using `npm run build` or `yarn run build` from the terminal. This will generate a build folder without source maps, suitable for deployment to production.
 
